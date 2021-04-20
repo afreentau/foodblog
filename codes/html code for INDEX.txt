@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, 
+    minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Blog</title>
+    <!--Font awesome CDN------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Scroll reveal CDN----------------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+
+                <div class="blog_logo">
+                    <a href="#"> <h1>Name of your  <span>Blog</span></h1></a>
+                   </div>
+
+                <div class="menu-toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+             
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Recipes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--------------------------------------------------nav end here------------------------------------------------->
+
+    <section class="hero" id="hero">
+        
+
+        <div class="container">
+            <h2 class="sub-heading">
+                <span class="first-letter">W</span>elcome
+            </h2>
+            <h1 class="heading">THE BLOG</h1>
+            <div class="headline-description">
+                <div class="seperator">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fa fa-asterisk" aria-hidden="true"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                    <h5>Tag line to be put</h5>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!---------------------------------------------------hero page ends here------------------------------------------->
+    
+    <section class="discover">
+        <div class="container">
+            <div class="recip-info">
+                <div class="recip-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-heading">
+                            <span class="first-letter">D</span>iscover
+                        </h2>
+                        <h1 class="heading heading-dark">Receipes</h1>
+                        <div class="asterisk"><i class="fa fa-asterisk" aria-hidden="true"></i></div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores cupiditate, fugit ullam,
+                         quod saepe ea quia necessitatibus odit magni culpa maiores nemo eos ipsum consequatur, sint ratione.
+                          Reiciendis, ratione? </p>
+                    <a href="#" class="btn body-btn">Reciepes</a>
+                </div>
+                <div class="recip-info-img animate-right">
+                    <img src="/imgs/recip.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-------------------------------------------------discover ends here----------------------------------------------------->
+
+
+<section class="tasteful-desserts between">
+    <div class="container">
+        <div class="global-headline">
+            <div class="animate-top">
+                <h2 class="sub-heading">
+                    <span class="first-letter">T</span>asteful
+                </h2>
+            </div>
+           <div class="animate-bottom">
+            <h1 class="heading heading-dark">Desserts</h1>
+           </div>
+        </div>
+    </div>
+</section>
+
+<!----------------------------------------------------desserts ends --------------------------------------------->
+   
+<section class="gallery">
+    <div class="container">
+        <div class="recip-info">
+            <div class="image-group padding-right animate-left">
+                <img src="imgs/gal1.jpg" alt="">
+                <img src="imgs/gal2.jpg" alt="">
+                <img src="imgs/gal3.jpg" alt="">
+                <img src="imgs/gal4.jpg" alt="">
+            </div>
+            <div class="recip-description animate-right">
+                <div class="global-headline">
+                    <h2 class="sub-heading">
+                        <span class="first-letter">T</span>he picture
+                    </h2>
+                    <h1 class="heading heading-dark">Gallery</h1>
+                    <div class="asterisk"><i class="fa fa-asterisk" aria-hidden="true"></i></div>
+                </div>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae, nobis in ab
+                     corporis voluptate dolore voluptatum. Accusantium, repudiandae laudantium eveniet amet 
+                     obcaecati mollitia eaque autem laborum. Quaerat, est cupiditate?</p>
+
+                 <a href="#" class="btn body-btn">View the Gallery</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------------------------------------------gallery ends here------------------------------------->
+
+<section class="perfect-blend between">
+    <div class="container">
+        <div class="global-headline">
+            <div class="animate-top">
+                <h2 class="sub-heading">
+                    <span class="first-letter">T</span>he perfect
+                </h2>
+            </div>
+           <div class="animate-bottom">
+            <h1 class="heading">Blend</h1>
+           </div>
+        </div>
+    </div>
+</section>
+<!----------------------------------------------blend end here ---------------------------------------------->
+
+<section class="culinary-delight">
+    <div class="container">
+        <div class="recip-info">
+            <div class="recip-description padding-right animate-left">
+                <div class="global-headline">
+                    <h2 class="sub-heading">
+                        <span class="first-letter">C</span>ulinary 
+                    </h2>
+                    <h1 class="heading heading-dark">Delight</h1>
+                    <div class="asterisk"><i class="fa fa-asterisk" aria-hidden="true"></i></div>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, deleniti quo dolorem unde 
+                    voluptatum totam suscipit ducimus. Nisi, ipsum vitae harum, aspernatur, cum dolorum nostrum
+                     asperiores at magni ullam facilis!</p>
+                <a href="#" class="btn body-btn">Know the Art of Culinary</a>
+            </div>
+            <div class="image-group">
+                <img class="animate-top" src="/imgs/cul.jpg" alt="">
+                <img class="animate-bottom" src="/imgs/cul2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------------------------culinary ends here-------------------------------------------------------------->
+
+<footer>
+    <div class="container">
+        <div class="back-to-top">
+            <a href="#hero"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-content-about animate-top">
+                <h4>ABOUT </h4>
+                <div class="asterisk"><i class="fa fa-asterisk" aria-hidden="true"></i></div>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quia necessitatibus itaque
+                     quae possimus magnam ab nobis deleniti, recusandae vel aliquam, illum temporibus nam beatae, 
+                     sequi eos iusto. Illo, accusantium!</p>
+            </div>
+            <div class="footer-content-divider animate-bottom">
+                <div class="social-media">
+                    <h4>Follow along</h4>
+                
+                    <ul class="social-icons">
+                        <li>
+                        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                         </li>
+                    </ul>
+                </div>
+           
+            <div class="reach-me-container">
+                <h4>Reach Me</h4>
+                <form action="" class="reach-me-form">
+                    <input type="text" class="reach-me-input" placeholder="Your email address">
+                    <button class="reach-me-btn" type="submit">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+          
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="JS/main.js"></script>
+</body>
+
+</html>
